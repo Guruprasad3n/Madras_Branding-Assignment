@@ -1,0 +1,64 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 75px;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+
+  z-index: 1;
+}
+
+.leftSideContainer {
+  background-color: rgba(181, 175, 175, -0.2);
+}
+
+.leftSideContainer img {
+  width: 15%;
+  background-color: transparent;
+}
+
+.rightSideContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(181, 175, 175, -0.2);
+}
+
+.rightSideContainer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: transparent;
+}
+
+.rightSideContainer ul li {
+  margin-right: 50px;
+  font-size: 17px;
+  background-color: transparent;
+}
+
+.rightSideContainer ul li a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(59, 58, 64);
+}
+
+.rightSideContainer ul li:last-child {
+  margin-right: 0;
+}
+
+.signupButton {
+  padding: 8px 20px;
+  border: 1px solid rgb(29, 0, 66);
+  color: rgb(59, 58, 64);
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 17px medium;
+  font-weight: 600;
+}

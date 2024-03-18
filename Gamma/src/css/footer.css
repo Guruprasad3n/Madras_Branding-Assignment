@@ -1,0 +1,52 @@
+.footer {
+  background-color: #1d0042;
+  color: #fff;
+  padding: 30px;
+  height: 60vh;
+  align-items: center;
+  padding-top: 100px;
+}
+.gammaLogoImg {
+  height: 1%;
+  background-color: #1d0042;
+}
+
+.gammaLogoImg img {
+  width: 50%;
+  background-color: #1d0042;
+}
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #1d0042;
+}
+
+.footerColumn {
+  width: 80%;
+  background-color: #1d0042;
+}
+
+.footerColumn h4 {
+  margin-bottom: 10px;
+  color: rgb(135, 15, 117);
+  background-color: #1d0042;
+  font-weight: bolder;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+  background-color: #1d0042;
+}
+
+.footerColumn ul li {
+  margin-bottom: 20px;
+  background-color: #1d0042;
+}
+
+.footerColumn ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

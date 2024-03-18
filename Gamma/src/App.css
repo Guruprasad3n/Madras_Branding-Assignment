@@ -1,0 +1,16 @@
+.App {
+  height: 100%;
+  position: relative;
+  /* max-width: 1440px; */
+  margin: auto;
+}
+
+.positionImg {
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  z-index: 1;
+}

@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  gap: 10px;
+  margin-bottom: 100px;
+  background-color: rgba(255, 248, 242, 0.85);
+}
+.heading {
+  padding: 100px 0px;
+}
+.left-container {
+  height: 99% !important;
+  width: 60%;
+  background-color: rgba(255, 248, 242, 0.85);
+  padding: 0px 50px;
+}
+#scroll-container {
+  width: 40%;
+  overflow-y: scroll;
+}
+#scroll-container::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.image-box {
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+}
+p {
+  background-color: transparent;
+}
+.scrollHeadin {
+  text-align: start;
+  background-color: transparent;
+  line-height: 60px;
+  margin-block-end: 24px;
+  letter-spacing: -2.4px;
+  display: block;
+}
+.scrollHeadin > span {
+  background-color: transparent;
+}
+.scroll-icon {
+  display: none;
+}
+p {
+  text-align: start;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+}
+.scroll-head-imgbox {
+  display: none;
+}
+.contentCOntain {
+  backdrop-filter: blur(20px);
+}
+.contentCOntain {
+  max-width: 548px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1xp solid #423f3f;
+  border-radius: 16px;
+  line-height: 32px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+
+  text-size-adjust: 100%;
+  z-index: 1;
+  margin-top: 20px;
+}
+.boxContent {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.profileText {
+  font-size: 18px;
+  line-height: 32px;
+}
+.contnetField {
+  font-family: "Eudoxus Sans", sans-serif;
+
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.containerUL {
+  line-height: 42px;
+}
+.contnetField,
+.containerUL,
+.containerLI {
+  background-color: transparent !important;
+  list-style: none;
+  line-height: 60px;
+  margin-right: 15px;
+}
+.emoji {
+  border-radius: 50%;
+  padding: 10px 7px;
+  background-color: transparent;
+  box-shadow: rgba(194, 59, 199, 0.2) 0px 7px 29px 0px;
+}
+
+.paraTop {
+  color: rgb(147, 135, 121);
+  font-size: 24px;
+  font-weight: 400;
+}
+.descriptionScroll {
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  display: block;
+  font-family: "Eudoxus Sans", sans-serif;
+  font-size: 24px;
+  height: 126px;
+  line-height: 42px;
+}

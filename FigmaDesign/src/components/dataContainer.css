@@ -1,10 +1,14 @@
 .mainDataContainer {
-  padding: 25px 50px;
+  padding: 20px 30px;
   color: white;
   font-weight: 500;
   font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: -2%;
+  width: 953px;
+  position: absolute;
+  left: 5;
+  top: 5;
 }
 .greadientColor {
   background: linear-gradient(
@@ -23,6 +27,46 @@
   line-height: 60.75px;
 }
 
-.bottomProperties{
-    
+.bottomProperties {
+  display: flex;
+  margin-top: 50px;
+  gap: 15px;
+}
+.CardCompinent {
+  width: 306px;
+  height: 215px;
+  border-radius: 22.09px;
+  background-color: rgba(41, 41, 41, 1);
+  font-size: 25px;
+  padding: 7px;
+  box-sizing: border-box;
+  line-height: 33.75px;
+  letter-spacing: -2%;
+  font-weight: 500;
+  position: relative;
+  /* display: flex;
+  align-items: start;
+  flex-direction: column; */
+  /* align-items: start; */
+  /* justify-content: space-around; */
+}
+
+.iconImg {
+  /* border: 1px solid red; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(23, 11, 28, 1);
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.iconImg > img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,0 +1,84 @@
+.texthead {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: -2%;
+  color: rgba(250, 249, 246, 1);
+  width: 50%;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.singlePageContainerImage {
+  display: flex;
+}
+.singlePageContainerImage > div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  height: 20%;
+  gap: 5px;
+  margin: 0;
+}
+.imagethree > img {
+  height: 104px;
+  width: 113px;
+  border: 2px solid rgba(250, 249, 246, 1);
+  border-radius: 9px;
+  /* margin-left: -10;x; */
+}
+.heroImage > img {
+  border-radius: 12px;
+  height: 529px;
+  width: 596px;
+}
+
+.mainContainerSing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightCall {
+  width: 497px;
+  /* height: ; */
+  border: 1.5px solid rgb(77, 74, 74);
+  border-radius: 10px;
+}
+
+.buttonFIlt {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+.buttonFIlt:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  cursor: pointer;
+}
+
+.productDescription {
+  margin: 0;
+}
+.productDescription > p:first-child {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34.5px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.productDescription > p:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.mtop {
+  padding: 17px 90px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

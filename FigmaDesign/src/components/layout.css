@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.layout {
+  margin: auto;
+  display: flex;
+  gap: 4px;
+  flex: 1;
+  /* position: relative; */
+}
+.sidebar {
+  height: 95.5vh;
+  width: 88px;
+  border: 1px solid #ffffff;
+  background-color: rgba(53, 21, 54, 0.3);
+  border-radius: 8px;
+}
+.sidebar > div {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar > div > img {
+  width: 26.18px;
+  height: 26.18px;
+}
+.content {
+  height: 95.5vh;
+  width: 1293px;
+  border: 1px solid #ffffff;
+  background-color: rgba(53, 21, 54, 0.3);
+  border-radius: 8px;
+  flex: 1;
+}
+
+/* .body {
+  border: 1px solid red;
+} */

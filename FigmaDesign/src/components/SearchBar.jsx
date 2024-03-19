@@ -1,19 +1,25 @@
-import Layout from "./Layout";
+import React, { useState } from "react";
 import "./searchbar.css";
 import plus from "../../public/assets/plus-search.png";
-import shop from "../../public/assets/shop-button.png";
 import Star from "../../public/assets/starButton.png";
-import { useState } from "react";
 import ProductPage from "./ProductPage";
+import Suggestions from "./Suggestons";
+import { useNavigate } from "react-router-dom";
+
 function SearchBar() {
   const [inp, setInp] = useState("");
+  const [showProductPage, setShowProductPage] = useState(false);
+const navigate =useNavigate()
   const handleClick = () => {
     if (!inp) {
-      alert("Write Someting ");
+      alert("Write Something");
     } else {
-      <ProductPage />;
+
+      setShowProductPage(true);
+      navigate("/suggestions")
     }
   };
+
   return (
     <>
       <div className="searchMain">
@@ -21,8 +27,6 @@ function SearchBar() {
           <img src={plus} alt="Plus-Add" />
           <input
             type="text"
-            name=""
-            id=""
             placeholder="Ask me anything..."
             value={inp}
             onChange={(e) => setInp(e.target.value)}
@@ -34,7 +38,9 @@ function SearchBar() {
           </button>
         </div>
       </div>
+      {showProductPage && <Suggestions />}
     </>
   );
 }
+
 export default SearchBar;

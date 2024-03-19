@@ -21,6 +21,7 @@ function Layout({ children }) {
           </div>
           <div className="content">
             <div className="body">{children}</div>
+            <SearchBar />
           </div>
         </div>
       </div>

@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
-import SearchBar from "./components/SearchBar";
-import DataContainer from "./components/DataContainer";
-import ProductPage from "./components/ProductPage";
+
+import MainRouter from "./Routes/Routes";
 
 function App() {
   return (
     <div className="App">
-      <SearchBar />
-      <DataContainer />
-      <ProductPage />
+      <MainRouter />
     </div>
   );
 }

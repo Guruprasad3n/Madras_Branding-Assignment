@@ -31,7 +31,7 @@ const navigate =useNavigate()
             value={inp}
             onChange={(e) => setInp(e.target.value)}
           />
-          <button onClick={handleClick}>
+          <button className="buttonShop" onClick={handleClick}>
             <span className="buttonSpan">
               <img src={Star} alt="" /> <span>Shop</span>
             </span>

@@ -5,8 +5,11 @@ import product1 from "../../public/assets/productPage1.png";
 import product2 from "../../public/assets/productPage2.png";
 import product3 from "../../public/assets/productPage3.png";
 import star from "../../public/assets/ic_round-star.png";
+import starButton from "../../public/assets/starWhite.png";
+import { useNavigate } from "react-router-dom";
 
 function ProductPage() {
+  const navigate = useNavigate();
   const suggestions = [
     { id: 1, text: "Recommended" },
     { id: 2, text: "Lowest Price" },
@@ -47,6 +50,9 @@ function ProductPage() {
       button: "Shop now",
     },
   ];
+  const handleProduct = (id) => {
+    navigate(`/products/${id}`);
+  };
   return (
     <Layout>
       <div className="mainProduct" style={{ color: "white" }}>
@@ -90,7 +96,10 @@ function ProductPage() {
                     <h2>{ele.price}</h2>
                   </div>
                   <div className="btn-holder" style={{ marginLeft: "100px" }}>
-                    <button className="btn-shop-now">
+                    <button
+                      className="btn-shop-now"
+                      onClick={() => handleProduct(ele.id)}
+                    >
                       <a href="">Shop now</a>
                     </button>
                   </div>
@@ -99,6 +108,10 @@ function ProductPage() {
             ))}
           </div>
         </div>
+        <button className="buttonShopMore">
+          {" "}
+          <img src={starButton} alt="" /> <p>Shop more</p>
+        </button>
       </div>
     </Layout>
   );
